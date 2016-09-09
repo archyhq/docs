@@ -8,4 +8,5 @@
    * Deploy on Google Functions
 * Command on Javascript
 * Languages
+   * Javascript
 
