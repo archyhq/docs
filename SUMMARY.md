@@ -6,7 +6,6 @@
    * Deploy on Heroku
    * Deploy on AWS Lambda
    * Deploy on Google Functions
-* Command on Javascript
 * Languages
    * Javascript
 
