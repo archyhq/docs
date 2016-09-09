@@ -17,17 +17,20 @@ Our Commands are created and maintained by a community of developers. You can cr
 [Join Us and Ask questions on Slack](https://archy-slack-inviter.herokuapp.com) or [email us](mailto:docs@archy.ai) directly.
 
 
-
 ## Create a New Archy Command
 
-TODO
+Command is a simple function, exposed as HTTPs endpoint, it receives arguments from Archy and returns results in Archy Response Format. That's it! Inside command, you can do any calculations, or fetch data from 3rd-party APIs.
+
+Start by example, see tutorials or existing commands:
+
+* Check out the [current commands](https://archy.ai/commands) for inspiration.
+* Watch tutorials on creating commands.
 
 
 ## Improve Existing Command
 
-Many of Archy **commands are open sourced**, so you can contribute to commands you love or use these commands for learning and insperation! 
+Many of Archy **commands are open sourced**, so you can contribute to commands you love or use these commands for learning and inspiration! 
 Go to [github.com/archyhq](https://github.com/archyhq) to discover what other people are building.
-
 
 
 ## Get in Touch 
