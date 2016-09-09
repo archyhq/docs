@@ -7,7 +7,7 @@
    * Javascript
    * Python
 * Deployment
+   * Heroku
    * AWS Lambda
    * Google Functions
-   * Heroku
 
