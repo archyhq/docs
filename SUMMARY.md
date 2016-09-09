@@ -8,6 +8,6 @@
    * Python
 * Deployment
    * AWS Lambda
-   * Deploy on Google Functions
+   * Google Functions
    * Heroku
 
