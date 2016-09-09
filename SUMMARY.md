@@ -3,11 +3,11 @@
 * [Introduction](README.md)
 * [Create New Command](chapter1.md)
    * Deploy on Heroku
-   * Deploy on Google Functions
 * Languages
    * Javascript
    * Python
 * Deployment
    * AWS Lambda
+   * Deploy on Google Functions
    * Heroku
 
