@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Getting Started](README.md)
 * [Create New Command](chapter1.md)
 * Languages
    * Javascript
