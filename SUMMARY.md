@@ -8,6 +8,6 @@
    * Javascript
    * Python
 * Deployment
-   * Deploy on AWS Lambda
+   * AWS Lambda
    * Heroku
 
