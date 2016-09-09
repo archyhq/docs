@@ -38,8 +38,7 @@ Need Help? Contact Us.
 : If you want setup or development help or are looking for live feedback from the community, we recommend you join our Slack organization. You can join by [getting an invite](https://archy-slack-inviter.herokuapp.com).
 
 * **Blog**
-
-Read and discuss at [Archy Community blog](https://blog.archy.ai).
+: Read and discuss at [Archy Community blog](https://blog.archy.ai).
 
 * **Twitter**
 : Follow and tweet at us [@archyhq](https://twitter.com/archyhq)
