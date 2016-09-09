@@ -8,4 +8,5 @@
 * Languages
    * Javascript
    * Python
+* Deployment
 
