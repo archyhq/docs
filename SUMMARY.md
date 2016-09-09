@@ -6,6 +6,6 @@
    * Deploy on AWS Lambda
    * Deploy on Google Functions
 * Languages
-   * Python
    * Javascript
+   * Python
 
