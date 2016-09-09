@@ -1,7 +1,7 @@
 # Summary
 
 * [Getting Started](README.md)
-   * Create New Command
+   * Make a Command
 * Languages
    * Javascript
    * Python
