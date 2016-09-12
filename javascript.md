@@ -1,3 +1,2 @@
 # Writing Command on Javascript
 
-Test Github integration...
