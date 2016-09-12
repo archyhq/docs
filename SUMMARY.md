@@ -3,7 +3,7 @@
 * [Getting Started](README.md)
    * Make a Command
 * Languages
-   * Javascript
+   * [Javascript](javascript.md)
    * Python
 * Deployment
    * Heroku
