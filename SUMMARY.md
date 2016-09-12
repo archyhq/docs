@@ -2,7 +2,7 @@
 
 * [Getting Started](README.md)
    * Make a Command
-* Make Command on any Language
+* Command on any Language
    * [Javascript (node.js)](javascript.md)
    * Python
 * Deployment
