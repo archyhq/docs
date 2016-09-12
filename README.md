@@ -29,8 +29,9 @@ Start by example, see tutorials or existing commands:
 
 ## Improve Existing Command
 
-Many of Archy **commands are open sourced**, so you can contribute to commands you love or use these commands for learning and inspiration! 
-Go to [github.com/archyhq](https://github.com/archyhq) to discover what other people are building.
+Many of Archy commands that we built are **open sourced**, so you can contribute to commands you love or use these commands for learning and inspiration! 
+
+Go to [github.com/archyhq](https://github.com/archyhq) to learn more.
 
 
 ## Get in Touch 
