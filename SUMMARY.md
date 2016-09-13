@@ -1,10 +1,8 @@
 # Summary
 
 * [Getting Started](README.md)
-   * Make a Command
-* Command on any Language
-   * [Javascript (node.js)](javascript.md)
-   * Python
+* First Steps
+   * [Writing your first Archy Command](part_1_create_new_command.md)
 * Deployment
    * Heroku
    * AWS Lambda
