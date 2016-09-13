@@ -107,13 +107,29 @@ After that you should be able to make POST requests to your new command:
 curl -X POST -H "Content-Type: application/json" -d '{"payload":{ "perPage": null, "page": 1, "meta": {}, "args": {}}}' "https://your_heroku_app_endpoint/events"
 ```
 
-Don't forget to replace *your_heroku_app_endpoint*, use ```heroku info```, if you need to lookup heroku app endpoint.
+Don't forget to replace *your_heroku_app_endpoint*. Use ```heroku info```, if forgot your heroku app endpoint.
 
 Command should return to you JSON object with some metadata.
 
 ## Step 3. Add command to Archy App
 
-Now it's time to test your command with Archy App. Download it for [iOS](https://archy.ai/downloads/ios) or [Android](https://archy.ai/downloads/android).
+Now it's time to test your command with Archy App. Download it for [iOS](https://archy.ai/downloads/ios) or [Android](https://archy.ai/downloads/android) if you did not do it before.
 
-Every command should be registered in Archy. This is a simple process, you don't need to create any accounts for that. Just go to [Create New Command page](https://archy.ai/developer/command/add) and register your new command.
+To test command in Archy app, you need to add it to Archy registry. This is a simple process, you don't need to create any accounts for that. 
 
+**Just go to [Create New Command page](https://archy.ai/developer/command/add) and register your new command.**
+
+You will need to:
+- specify your email address (you will recieve link to edit your command later).
+- specify an endpoint to your command. Use Heroku app endpoint for that.
+
+
+## Step 4. Test Command
+
+Now when you succesfully added command to archy registry, you should be able to get a sharable link.
+
+**Open Share link to your new command on your mobile phone. Add this command to Archy:**
+
+**You should immidiatly see results**:
+
+![](archy_tutorial_img_results_1_.png)
