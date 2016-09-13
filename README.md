@@ -24,13 +24,14 @@ Command is a simple function, exposed as HTTPs endpoint, it receives arguments f
 Start by example, see tutorials or existing commands:
 
 * Check out the [current commands](https://archy.ai/commands) for inspiration.
-* Watch tutorials on creating commands.
+* Start with tutorial on creating new command.
 
 
 ## Improve Existing Command
 
-Many of Archy **commands are open sourced**, so you can contribute to commands you love or use these commands for learning and inspiration! 
-Go to [github.com/archyhq](https://github.com/archyhq) to discover what other people are building.
+Many of Archy commands that we built are **open sourced**, so you can contribute to commands you love or use these commands for learning and inspiration! 
+
+Go to [github.com/archyhq](https://github.com/archyhq) to learn more.
 
 
 ## Get in Touch 
