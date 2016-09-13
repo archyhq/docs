@@ -33,11 +33,11 @@ You can always lookup heroku app endpoint using ```heroku info```.
 
 **Create a package.json file with dependencies**
 
-Create a package.json file with following content:
+Create a package.json file (`npm init`) which includes the following content:
 
 ```json
 {
-  "version": "0.0.1"
+  "version": "0.0.1",
   "scripts": {
     "start": "node index.js"
   }
