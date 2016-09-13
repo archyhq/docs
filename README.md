@@ -24,7 +24,7 @@ Command is a simple function, exposed as HTTPs endpoint, it receives arguments f
 Start by example, see tutorials or existing commands:
 
 * Check out the [current commands](https://archy.ai/commands) for inspiration.
-* Start with tutorial on creating new command.
+* Start with [tutorial on creating new command](/part_1_create_new_command).
 
 
 ## Improve Existing Command
