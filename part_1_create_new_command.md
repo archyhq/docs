@@ -37,7 +37,7 @@ Create a package.json file with following content:
 
 ```json
 {
-  "version": "0.0.1"
+  "version": "0.0.1",
   "scripts": {
     "start": "node index.js"
   }
@@ -95,6 +95,7 @@ app.start();
 Now you can make your first commit and deploy new command:
 
 ```
+$ git add .
 $ git commit -m "Init command"
 $ git push heroku master
 ```
