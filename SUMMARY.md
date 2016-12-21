@@ -9,4 +9,5 @@
 * [Card](card.md)
     * [CardHeader](cardheader.md)
     * [CardImage](cardimage.md)
+    * [CardFooter](cardfooter.md)
 
