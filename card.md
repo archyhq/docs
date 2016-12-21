@@ -8,7 +8,7 @@ Card is the cornerstone of the current Archy Views version.
 
 A link to an Archy address or external Web URI. When defined, Archy will redirect user to the specified link when user touches/clicks on the Card.
 
-_Example_: 
+_Example_:
 
 ```js
 // link to an archy address
