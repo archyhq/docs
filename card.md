@@ -1,6 +1,4 @@
-# Card
-
-
+# &lt;Card&gt;
 
 Card is the cornerstone of the current Archy Views version.
 

@@ -1,4 +1,4 @@
-# CardImage
+# &lt;CardImage&gt;
 
 Image inside a Card
 

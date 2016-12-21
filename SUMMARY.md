@@ -9,5 +9,9 @@
 * [Card](card.md)
     * [CardHeader](cardheader.md)
     * [CardImage](cardimage.md)
+    * [CardBodyText](cardbodytext.md)
+    * [Status](status.md)
+    * [Media](media.md)
+    * [CardTable](cardtable.md)
     * [CardFooter](cardfooter.md)
 
