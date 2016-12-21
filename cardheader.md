@@ -1,6 +1,6 @@
 # CardHeader
 
-Component to display a title and subtitle for a card.
+A header inside a Card
 
 ![](/assets/CardHeader.png)
 

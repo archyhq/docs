@@ -8,4 +8,5 @@
 ## Components
 * [Card](card.md)
     * [CardHeader](cardheader.md)
+    * [CardImage](cardimage.md)
 
