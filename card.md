@@ -21,12 +21,32 @@ const link = {
   },
 }
 
+JSX:
 <Card linkTo={link}>...</Card>
+
+JSON:
+
+{
+  "elementName": "Card",
+  "attributes": {
+    "linkTo": link
+  }
+}
 
 // or an URI to external web resource
 const uri = "https://github.com/archyhq/archy"
 
+JSX:
 <Card linkTo={uri}>...</Card>
+
+JSON:
+
+{
+  "elementName": "Card",
+  "attributes": {
+    "linkTo": uri
+  }
+}
 ```
 
 **timestamp **string \(default: undefined\)
@@ -40,12 +60,35 @@ Converts a Card into the full width representation mode.
 ## Examples
 
 ```js
+JSX:
+
 <Card
   linkTo={item.url}
   fullWidth={true}
   timestamp={item.updatedAt}>
     <CardHeader title={item.title} />
 </Card>
+
+JSON:
+
+{
+  "elementName": "Card",
+  "attributes": {
+    "linkTo": item.url,
+    "fullWidth": true,
+    "timestamp": item.updatedAt
+  },
+  "children": [
+    {
+      "elementName": "Card",
+      "attributes": {
+        "title": item.title
+      }
+    }
+  ]
+}
+
+
 ```
 
 
