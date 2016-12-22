@@ -1,6 +1,8 @@
 {
     "plugins": [
-        "ga"
+        "ga",
+        "prism",
+        "-highlight"
     ],
     "pluginsConfig": {
         "ga": {
