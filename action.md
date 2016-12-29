@@ -28,7 +28,7 @@ JSON
   "elementName": "Card",
   "children": [
     {
-      "elementName": "Card",
+      "elementName": "Action",
       "attributes": {
         "label": "close",
         "type": "primary",
