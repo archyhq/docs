@@ -4,7 +4,26 @@ Component to display a footer of a Card. It's similar to a Card header, useful t
 
 ## Attributes
 
-**footnote **string \(default: ""\)
+**footnote** string \(default: ""\)
 
 A string to display in a footnote.
 
+**labels** Array&lt;{ color: string; name: string }&gt;
+
+List of labels
+
+## Examples
+
+```js
+const lables = [{
+  name: 'bug',
+  color: 'FF6347',
+},{
+  name: 'feature',
+  color: '1E90FF',
+}]
+
+<Card>
+  <CardFooter lables={lables} footnote="Foot note"/>
+</Card>
+```

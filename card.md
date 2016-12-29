@@ -12,6 +12,7 @@ A link to an Archy address or external Web URI. When defined, Archy will redirec
 
 _Example_:
 
+JSX
 ```js
 // link to an archy address
 const link = {
@@ -21,10 +22,13 @@ const link = {
   },
 }
 
-JSX:
 <Card linkTo={link}>...</Card>
+```
 
-JSON:
+JSON
+```js
+// or an URI to external web resource
+const link = "https://github.com/archyhq/archy"
 
 {
   "elementName": "Card",
@@ -32,24 +36,9 @@ JSON:
     "linkTo": link
   }
 }
-
-// or an URI to external web resource
-const uri = "https://github.com/archyhq/archy"
-
-JSX:
-<Card linkTo={uri}>...</Card>
-
-JSON:
-
-{
-  "elementName": "Card",
-  "attributes": {
-    "linkTo": uri
-  }
-}
 ```
 
-**timestamp **string \(default: undefined\)
+**timestamp** string \(default: undefined\)
 
 A timestamp in UTC format, telling Archy when the content of the Card was updated last time. This information is used in Notification System
 
@@ -57,20 +46,28 @@ A timestamp in UTC format, telling Archy when the content of the Card was update
 
 Converts a Card into the full width representation mode.
 
+**children** array
+Possible children components:
+
+[Action](action.md), [CardHeader](cardheader.md), [CardBodyText](cardbodytext.md), [CardFooter](cardfooter.md), [CardAttachments](cardattachments.md),[CardTable](cardtable.md), [CardImage](cardimage.md), [CardChart](cardchart.md), [CardCounter](cardcounter.md), [Status](status.md), [Media](media.md), [Separator](separator.md)
+
+
 ## Examples
 
-```js
-JSX:
+JSX
 
+```js
 <Card
   linkTo={item.url}
   fullWidth={true}
   timestamp={item.updatedAt}>
     <CardHeader title={item.title} />
 </Card>
+```
 
-JSON:
+JSON
 
+```js
 {
   "elementName": "Card",
   "attributes": {
@@ -87,9 +84,4 @@ JSON:
     }
   ]
 }
-
-
 ```
-
-
-
