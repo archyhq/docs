@@ -1,6 +1,6 @@
 # &lt;CardBodyText&gt;
 
-Status badge
+Text component
 
 ## Attributes
 
