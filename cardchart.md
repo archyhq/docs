@@ -2,11 +2,21 @@
 
 A list of attachments inside a Card
 
-![](/assets/CardCharts.png)
-
 ## Attributes
 
-**data** Array<Object>
+**unit** string \(default: ""\)
+
+Chart units
+
+**type** string \(default: ""\)
+
+Chart type, one of the following: lineChart, histogramChart, barChart, donutChart
+
+**fullWidth** boolean \(default: false\)
+
+Converts a Card into the full width representation mode.
+
+**data** Array&lt;Object&gt;
 
 Chart data for type 'lineChart' and 'histogramChart':
 
@@ -65,19 +75,6 @@ Value for a single set of data points on the graph
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Hexadecimal RGB color for the data points representation. Automatically generated if not provided.
-
-
-**unit** string \(default: ""\)
-
-Chart units
-
-**type** string \(default: ""\)
-
-Chart type, one of the following: lineChart, histogramChart, barChart, donutChart
-
-**fullWidth** boolean \(default: false\)
-
-Converts a Card into the full width representation mode.
 
 ## Examples
 

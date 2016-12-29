@@ -4,7 +4,7 @@ A list of attachments inside a Card
 
 ## Attributes
 
-**attachments** Array<Object> \(default: []\)
+**attachments** Array&lt;Object&gt; \(default: []\)
 
 Button text
 
