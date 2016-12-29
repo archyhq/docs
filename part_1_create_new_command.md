@@ -49,7 +49,7 @@ Create a package.json file with following content:
 Add archy-sdk as a dependency:
 
 ```
-npm install --save archy-sdk
+$ npm install --save archy-sdk
 ```
 
 ## Step 2. Write first code
