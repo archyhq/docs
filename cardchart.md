@@ -1,6 +1,6 @@
 # &lt;CardCharts&gt;
 
-A list of attachments inside a Card
+Component which can display line, histogram, bar and donut charts.
 
 ## Attributes
 
@@ -157,7 +157,7 @@ const data2 = [{
 }]
 
 {
-  "elementName": "CardImage",
+  "elementName": "Card",
   "children": [
     {
       "elementName": "CardCharts",
