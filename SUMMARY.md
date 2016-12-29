@@ -2,6 +2,7 @@
 
 ## Basics
 * [Getting Started](README.md)
+* [test](test.md)
 
 ## Components
 * [Card](card.md)
