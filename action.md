@@ -2,8 +2,6 @@
 
 An action inside a Card
 
-![](/assets/Action.png)
-
 ## Attributes
 
 **label** string \(default: ""\)

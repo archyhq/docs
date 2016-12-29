@@ -2,8 +2,6 @@
 
 A list of attachments inside a Card
 
-![](/assets/CardAttachments.png)
-
 ## Attributes
 
 **attachments** Array<Object> \(default: []\)

@@ -2,8 +2,6 @@
 
 A counter card component
 
-![](/assets/CardCounter.png)
-
 ## Attributes
 
 **number** number \(default: null\)

@@ -2,8 +2,6 @@
 
 An separator between components inside a Card
 
-![](/assets/Separator.png)
-
 ## Examples
 
 ```js
