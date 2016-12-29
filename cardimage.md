@@ -4,7 +4,7 @@ Image inside a Card
 
 ## Attributes
 
-**uri **string \(default: undefined\)
+**uri** string \(default: undefined\)
 
 A URI of an image to show inside a Card
 
@@ -26,6 +26,3 @@ Height of an image.
     height={300} />
 </Card>
 ```
-
-
-

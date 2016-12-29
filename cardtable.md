@@ -4,7 +4,7 @@ Component to render a table inside a Card
 
 ## Attributes
 
-**rows **Array&lt;{ value: string; key: string }&gt;
+**rows** Array&lt;{ value: string; key: string }&gt;
 
 Examples:
 
@@ -12,10 +12,10 @@ Examples:
 const rows = [
   {
     key: "Users",
-    value: "100,
+    value: "100",
   }, {
-    key: "Users",
-    value: "100,
+    key: "Admins",
+    value: "2",
   },
 ]
 
@@ -23,6 +23,3 @@ const rows = [
   <CardTable rows={rows} />
 </Card>
 ```
-
-
-

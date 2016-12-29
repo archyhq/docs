@@ -14,13 +14,19 @@ A title for a card.
 
 A subtitle for a card
 
+**created** Object \(default: {}\)
+
+Information about who and when created this entity
+
 ## Examples
 
 ```js
+const created = {
+  by: 'Admin',
+  when: 1483044914860,
+}
+
 <Card>
-  <CardHeader title="Card title" subtitle="Card subtitle" />
+  <CardHeader created={created} title="Card title" subtitle="Card subtitle" />
 </Card>
 ```
-
-
-
