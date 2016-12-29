@@ -10,13 +10,33 @@ Button text
 
 ## Examples
 
+JSX
 ```js
 const attachments = [{
-  img: 'https://archy.ai/images/logos/logo-github@2x.png',
-  text: 'github',
+  img: 'https://avatars1.githubusercontent.com/u/3182655?v=3&s=460',
+  text: 'EOdOW',
 }]
-
 <Card>
   <CardAttachments attachments={attachments}/>
 </Card>
+```
+
+JSON
+```js
+const attachments = [{
+  img: 'https://avatars1.githubusercontent.com/u/3182655?v=3&s=460',
+  text: 'EOdOW',
+}]
+
+{
+  "elementName": "Card",
+  "children": [
+    {
+      "elementName": "CardAttachments",
+      "attributes": {
+        "attachments": attachments,
+      }
+    }
+  ]
+}
 ```

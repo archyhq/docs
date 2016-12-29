@@ -14,8 +14,26 @@ Type can be 'primary' otherwise its default
 
 ## Examples
 
+JSX
 ```js
 <Card>
   <Action label="close" type="primary" />
 </Card>
+```
+
+JSON
+```js
+
+{
+  "elementName": "Card",
+  "children": [
+    {
+      "elementName": "Card",
+      "attributes": {
+        "label": "close",
+        "type": "primary",
+      }
+    }
+  ]
+}
 ```

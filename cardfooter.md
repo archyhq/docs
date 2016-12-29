@@ -14,6 +14,7 @@ List of labels
 
 ## Examples
 
+JSX
 ```js
 const labels = [{
   name: 'bug',
@@ -26,4 +27,29 @@ const labels = [{
 <Card>
   <CardFooter labels={labels} footnote="Foot note"/>
 </Card>
+```
+
+JSON
+```js
+
+const labels = [{
+  name: 'bug',
+  color: 'FF6347',
+},{
+  name: 'feature',
+  color: '1E90FF',
+}]
+
+{
+  "elementName": "Card",
+  "children": [
+    {
+      "elementName": "CardFooter",
+      "attributes": {
+        "labels": labels,
+        "footnote": "Foot note",
+      }
+    }
+  ]
+}
 ```

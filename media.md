@@ -26,6 +26,7 @@ Subtitle for a media object
 
 ### Example
 
+JSX
 ```js
 <Card>
   <Media
@@ -35,4 +36,22 @@ Subtitle for a media object
     color="#fafafa"
   />
 </Card>
+```
+JSON
+```js
+
+{
+  "elementName": "Card",
+  "children": [
+    {
+      "elementName": "Media",
+      "attributes": {
+        "title": "Media title",
+        "subtitle": "Media subtitle",
+        "iconName": "close",
+        "color": "#fafafa",
+      }
+    }
+  ]
+}
 ```

@@ -8,6 +8,7 @@ Component to render a table inside a Card
 
 Examples:
 
+JSX
 ```js
 const rows = [
   {
@@ -22,4 +23,30 @@ const rows = [
 <Card>
   <CardTable rows={rows} />
 </Card>
+```
+
+JSON
+```js
+
+const rows = [
+  {
+    key: "Users",
+    value: "100",
+  }, {
+    key: "Admins",
+    value: "2",
+  },
+]
+
+{
+  "elementName": "Card",
+  "children": [
+    {
+      "elementName": "CardTable",
+      "attributes": {
+        "rows": rows,
+      }
+    }
+  ]
+}
 ```

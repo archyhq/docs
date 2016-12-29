@@ -21,8 +21,25 @@ Height of an image.
 ```js
 <Card>
   <CardImage
-    uri={item.imageUrl}
+    uri="https://archy.ai/images/demos/001@2x.png"
     width={300}
     height={300} />
 </Card>
+```
+
+JSON
+```js
+{
+  "elementName": "Card",
+  "children": [
+    {
+      "elementName": "CardImage",
+      "attributes": {
+        "uri": "https://archy.ai/images/demos/001@2x.png",
+        "width": 300,
+        "height": 300,
+      }
+    }
+  ]
+}
 ```

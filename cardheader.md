@@ -20,6 +20,7 @@ Information about who and when created this entity
 
 ## Examples
 
+JSX
 ```js
 const created = {
   by: 'Admin',
@@ -29,4 +30,27 @@ const created = {
 <Card>
   <CardHeader created={created} title="Card title" subtitle="Card subtitle" />
 </Card>
+```
+
+JSON
+```js
+
+const created = {
+  by: 'Admin',
+  when: 1483044914860,
+}
+
+{
+  "elementName": "Card",
+  "children": [
+    {
+      "elementName": "CardHeader",
+      "attributes": {
+        "title": "Card title",
+        "subtitle": "Card subtitle",
+        "created": created,
+      }
+    }
+  ]
+}
 ```

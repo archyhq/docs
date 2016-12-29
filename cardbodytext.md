@@ -4,12 +4,13 @@ Status badge
 
 ## Attributes
 
-**text **string
+**text** string
 
 plain text to render
 
 ## Example
 
+JSX
 ```js
 <Card>
   <CardHeader title="Text title" subtitle="Text subtitle" />
@@ -17,5 +18,23 @@ plain text to render
 </Card>
 ```
 
-
-
+JSON
+```js
+{
+  "elementName": "Card",
+  "children": [
+    {
+      "elementName": "CardHeader",
+      "attributes": {
+        "title": "Card title",
+        "subtitle": "Card subtitle",
+      }
+    },{
+      "elementName": "CardBodyText",
+      "attributes": {
+        "text": "Some text for your card",
+      }
+    }
+  ]
+}
+```

@@ -18,16 +18,31 @@ Text inside a badge
 
 ### Example
 
+JSX
 ```js
 <Card>
-  <Media
-    title="Media title"
-    subtitle="Media subtitle"
+  <Status
+    label="Closed"
     iconName="close"
     color="#fafafa"
   />
 </Card>
 ```
 
+JSON
+```js
 
-
+{
+  "elementName": "Card",
+  "children": [
+    {
+      "elementName": "Status",
+      "attributes": {
+        "label": "Closed",
+        "iconName": "close",
+        "color": "#fafafa",
+      }
+    }
+  ]
+}
+```
