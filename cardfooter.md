@@ -15,7 +15,7 @@ List of labels
 ## Examples
 
 ```js
-const lables = [{
+const labels = [{
   name: 'bug',
   color: 'FF6347',
 },{
@@ -24,6 +24,6 @@ const lables = [{
 }]
 
 <Card>
-  <CardFooter lables={lables} footnote="Foot note"/>
+  <CardFooter labels={labels} footnote="Foot note"/>
 </Card>
 ```
