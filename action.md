@@ -4,13 +4,9 @@ An action inside a Card
 
 ## Attributes
 
-**label** string \(default: ""\)
+* **`label:`** Required. String representing action text.
 
-Button text
-
-**type** string \(default: ""\)
-
-Type can be 'primary' otherwise its default
+* **`type:`** Required. String representing button type. Type can be 'primary' otherwise its default
 
 ## Examples
 

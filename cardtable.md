@@ -4,7 +4,9 @@ Component to render a table inside a Card
 
 ## Attributes
 
-**rows** Array&lt;{ value: string; key: string }&gt;
+* **`rows:`** Required. Array of table rows
+  * **`key:`** Required. String representing row key
+  * **`value:`** Required. String representing row value
 
 Examples:
 

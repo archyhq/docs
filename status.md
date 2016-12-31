@@ -4,17 +4,11 @@ Status badge
 
 ## Attributes
 
-**iconName **\(optional\)** **string
+* **`iconName:`** Required. String representing the name of an icon from [font awesome icon library](https://fontawesome.io/icons/)
 
-name of an icon from [font awesome icon library](https://fontawesome.io/icons/)
+* **`color:`** Required. String representing the hexadecimal RGB color for an icon. Default \#000000
 
-**color** \(optional\) string
-
-Hexadecimal RGB color for an icon. Default \#000000
-
-**label** \(optional\) string
-
-Text inside a badge
+* **`label:`** Required. String representing the text inside a badge
 
 ### Example
 

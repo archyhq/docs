@@ -4,25 +4,15 @@ Renders a media object inside a Card
 
 ## Attributes
 
-**imageUrl** string \(optional\)
+* **`iconName:`** Required. String representing the name of an icon from [font awesome icon library](https://fontawesome.io/icons/)
 
-url of a string
+* **`color:`** Required. String representing the hexadecimal RGB color for an icon. Default \#000000
 
-**iconName** string \(optional\)
+* **`title:`** Optional. String representing the title for the media object
 
-name of an icon from [font awesome icon library](https://fontawesome.io/icons/)
+* **`subtitle:`** Optional. String representing the subtitle for the media object
 
-**color** string \(optional\)
-
-Hexadecimal RGB color for an icon. Default \#000000
-
-**title** string \(optional\)
-
-Title for a media object
-
-**subtitle** string \(optional\)
-
-Subtitle for a media object
+* **`imageUrl:`** Optional. String representing the image url
 
 ### Example
 

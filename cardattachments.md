@@ -4,9 +4,10 @@ A list of attachments inside a Card
 
 ## Attributes
 
-**attachments** Array&lt;Object&gt; \(default: []\)
+* **`attachments:`** Required. Array of attachments
+  * **`img:`** Required. String representing url of the attachment image
+  * **`text:`** Required. String representing attachment text
 
-Button text
 
 ## Examples
 

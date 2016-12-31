@@ -4,77 +4,35 @@ Component which can display line, histogram, bar and donut charts.
 
 ## Attributes
 
-**unit** string \(default: ""\)
+* **`unit:`** Required. String representing the units of the chart.
 
-Chart units
+* **`type:`** Required. String representing chart type. One of the following: lineChart, histogramChart, barChart, donutChart
 
-**type** string \(default: ""\)
+* **`fullWidth:`** Optional. Boolean which converts a Card into the full width representation mode. False by default.
 
-Chart type, one of the following: lineChart, histogramChart, barChart, donutChart
+* **`data:`** Required. Array of data sets for the graph.
 
-**fullWidth** boolean \(default: false\)
+  Chart data for type 'lineChart' and 'histogramChart':
 
-Converts a Card into the full width representation mode.
+  * **`points:`** Required. Array of objects representing a single set of data points on the graph. Each object contains `x` (timestamp in ms) and `y` coordinates of a single point in a data set.
 
-**data** Array&lt;Object&gt;
+  * **`start:`** Required. Number representing start timestamp in milliseconds for the data set
 
-Chart data for type 'lineChart' and 'histogramChart':
+  * **`end:`** Required. Number representing start timestamp in milliseconds for the data set
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**points** Array&lt;{ x: number; y: number }&gt;
+  * **`interval:`** Required. Number representing the distance between `x` points
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Array of objects representing a single set of data points on the graph. Each object contains x (timestamp in ms) and y coordinates of a single point in a data set.
+  * **`name:`** Required. String representing the name for a single set of data points on the graph
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**start** number
+  * **`color:`** Optional. String representing the hexadecimal RGB color for the data points representation. Automatically generated if not provided.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Start timestamp in milliseconds for the data set
+  Chart data for type 'barChart' and 'donutChart':
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**end** number
+  * **`name:`** Required. String representing the name for a single set of data points on the graph
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-End timestamp in milliseconds for the data set
+  * **`value:`** Required. Number representing the value for a single set of data points on the graph
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**interval** number
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Interval between x points
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**name** string
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Name for a single set of data points on the graph
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**color** \(optional\) string
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Hexadecimal RGB color for the data points representation. Automatically generated if not provided.
-
-Chart data for type 'barChart' and 'donutChart':
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**name** string \(default: ''\)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Name for a single set of data points on the graph
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**value** number \(default: null\)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Value for a single set of data points on the graph
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**color** \(optional\) string
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Hexadecimal RGB color for the data points representation. Automatically generated if not provided.
+  * **`color:`** Optional. String representing the hexadecimal RGB color for the data points representation. Automatically generated if not provided.
 
 ## Examples
 

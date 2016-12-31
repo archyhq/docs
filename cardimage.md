@@ -4,17 +4,9 @@ Image inside a Card
 
 ## Attributes
 
-**uri** string \(default: undefined\)
-
-A URI of an image to show inside a Card
-
-**width** number \(default: undefined\)
-
-Width of an image.
-
-**height** number \(default: undefined\)
-
-Height of an image.
+* **`uri:`** Required. String representing image uri.
+* **`width:`** Required. Number representing width of the image
+* **`height:`** Required. Number representing height of the image
 
 ## Examples
 

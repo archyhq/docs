@@ -4,9 +4,7 @@ Text component
 
 ## Attributes
 
-**text** string
-
-plain text to render
+* **`text:`** Required. String representing plain text to render.
 
 ## Example
 

@@ -6,17 +6,13 @@ A header inside a Card
 
 ## Attributes
 
-**title **string \(default: ""\)
+* **`title:`** Required. String representing the title for a card, empty string by default.
 
-A title for a card.
+* **`subtitle:`** Required. String representing the subtitle for a card, empty string by default.
 
-**subtitle** string \(default: ""\)
-
-A subtitle for a card
-
-**created** Object \(default: {}\)
-
-Information about who and when created this entity
+* **`created:`** Required. Object containing information about who and when created this entity
+  * **`by:`** Required. String representing owner of the entity.
+  * **`when:`** Required. Timestamp in millisecond representing when entity was created.
 
 ## Examples
 

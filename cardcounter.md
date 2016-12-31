@@ -4,9 +4,7 @@ A counter card component
 
 ## Attributes
 
-**number** number \(default: null\)
-
-Counter value displayed on the card
+* **`number:`** Required. Number representing the counter value displayed on the card
 
 ## Examples
 

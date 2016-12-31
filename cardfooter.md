@@ -4,13 +4,12 @@ Component to display a footer of a Card. It's similar to a Card header, useful t
 
 ## Attributes
 
-**footnote** string \(default: ""\)
+* **`footnote:`** Required. String representing the footnote text
 
-A string to display in a footnote.
+* **`labels:`** Required. List of labels
 
-**labels** Array&lt;{ color: string; name: string }&gt;
-
-List of labels
+  * **`color:`** Required. String representing text of the label
+  * **`name:`** Required. String the label color in Hexadecimal RGB
 
 ## Examples
 
